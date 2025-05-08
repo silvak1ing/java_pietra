@@ -9,7 +9,7 @@ public class Funcionario {
         this.nome = nome;
         this.cargo = cargo;
         this.salario = salario;
-        this.ativo = true; // Por padrão, funcionário está ativo
+        this.ativo = true; 
     }
 
     public String getNome() {

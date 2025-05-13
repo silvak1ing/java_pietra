@@ -15,7 +15,7 @@ public class Empresa {
         do {
             exibirMenu();
             opcao = scanner.nextInt();
-            scanner.nextLine(); // consumir quebra de linha
+            scanner.nextLine(); 
             switch (opcao) {
                 case 1 -> cadastrarFuncionario();
                 case 2 -> listarFuncionarios();

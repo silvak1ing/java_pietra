@@ -1,13 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- */
-
-package com.mycompany.ex3;
-
-/**
- *
- * @author Gabriel
- */
 import java.util.Scanner;
 public class Ex3 {
 

@@ -1,0 +1,218 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "java_pietra-1_8c02e5bc"
+        },
+        {
+            "type": "java",
+            "name": "Cinema",
+            "request": "launch",
+            "mainClass": "Cinema",
+            "projectName": "java_pietra-1_8c02e5bc"
+        },
+        {
+            "type": "java",
+            "name": "ContaCorrente",
+            "request": "launch",
+            "mainClass": "ContaCorrente",
+            "projectName": "java_pietra-1_8c02e5bc"
+        },
+        {
+            "type": "java",
+            "name": "Empresa",
+            "request": "launch",
+            "mainClass": "Empresa",
+            "projectName": "java_pietra-1_8c02e5bc"
+        },
+        {
+            "type": "java",
+            "name": "Ex1",
+            "request": "launch",
+            "mainClass": "Ex1",
+            "projectName": "java_pietra-1_8c02e5bc"
+        },
+        {
+            "type": "java",
+            "name": "Ex10",
+            "request": "launch",
+            "mainClass": "Ex10",
+            "projectName": "java_pietra-1_8c02e5bc"
+        },
+        {
+            "type": "java",
+            "name": "Ex11",
+            "request": "launch",
+            "mainClass": "Ex11",
+            "projectName": "java_pietra-1_8c02e5bc"
+        },
+        {
+            "type": "java",
+            "name": "Ex12",
+            "request": "launch",
+            "mainClass": "Ex12",
+            "projectName": "java_pietra-1_8c02e5bc"
+        },
+        {
+            "type": "java",
+            "name": "Ex13",
+            "request": "launch",
+            "mainClass": "Ex13",
+            "projectName": "java_pietra-1_8c02e5bc"
+        },
+        {
+            "type": "java",
+            "name": "Ex14",
+            "request": "launch",
+            "mainClass": "Ex14",
+            "projectName": "java_pietra-1_8c02e5bc"
+        },
+        {
+            "type": "java",
+            "name": "Ex2",
+            "request": "launch",
+            "mainClass": "Ex2",
+            "projectName": "java_pietra-1_8c02e5bc"
+        },
+        {
+            "type": "java",
+            "name": "Ex3",
+            "request": "launch",
+            "mainClass": "Ex3",
+            "projectName": "java_pietra-1_8c02e5bc"
+        },
+        {
+            "type": "java",
+            "name": "Ex4",
+            "request": "launch",
+            "mainClass": "Ex4",
+            "projectName": "java_pietra-1_8c02e5bc"
+        },
+        {
+            "type": "java",
+            "name": "Ex5",
+            "request": "launch",
+            "mainClass": "Ex5",
+            "projectName": "java_pietra-1_8c02e5bc"
+        },
+        {
+            "type": "java",
+            "name": "Ex9",
+            "request": "launch",
+            "mainClass": "Ex9",
+            "projectName": "java_pietra-1_8c02e5bc"
+        },
+        {
+            "type": "java",
+            "name": "Filme",
+            "request": "launch",
+            "mainClass": "Filme",
+            "projectName": "java_pietra-1_8c02e5bc"
+        },
+        {
+            "type": "java",
+            "name": "Livro",
+            "request": "launch",
+            "mainClass": "Livro",
+            "projectName": "java_pietra-1_8c02e5bc"
+        },
+        {
+            "type": "java",
+            "name": "Mavenproject1",
+            "request": "launch",
+            "mainClass": "Mavenproject1",
+            "projectName": "java_pietra-1_8c02e5bc"
+        },
+        {
+            "type": "java",
+            "name": "Produto",
+            "request": "launch",
+            "mainClass": "Produto",
+            "projectName": "java_pietra-1_8c02e5bc"
+        },
+        {
+            "type": "java",
+            "name": "Voo",
+            "request": "launch",
+            "mainClass": "Voo",
+            "projectName": "java_pietra-1_8c02e5bc"
+        },
+        {
+            "type": "java",
+            "name": "classe3",
+            "request": "launch",
+            "mainClass": "classe3",
+            "projectName": "java_pietra-1_8c02e5bc"
+        },
+        {
+            "type": "java",
+            "name": "classes",
+            "request": "launch",
+            "mainClass": "classes",
+            "projectName": "java_pietra-1_8c02e5bc"
+        },
+        {
+            "type": "java",
+            "name": "classes2",
+            "request": "launch",
+            "mainClass": "classes2",
+            "projectName": "java_pietra-1_8c02e5bc"
+        },
+        {
+            "type": "java",
+            "name": "ex8",
+            "request": "launch",
+            "mainClass": "ex8",
+            "projectName": "java_pietra-1_8c02e5bc"
+        },
+        {
+            "type": "java",
+            "name": "exercicio1",
+            "request": "launch",
+            "mainClass": "exercicio1",
+            "projectName": "java_pietra-1_8c02e5bc"
+        },
+        {
+            "type": "java",
+            "name": "exercicio2",
+            "request": "launch",
+            "mainClass": "exercicio2",
+            "projectName": "java_pietra-1_8c02e5bc"
+        },
+        {
+            "type": "java",
+            "name": "exercicio3",
+            "request": "launch",
+            "mainClass": "exercicio3",
+            "projectName": "java_pietra-1_8c02e5bc"
+        },
+        {
+            "type": "java",
+            "name": "prova1",
+            "request": "launch",
+            "mainClass": "prova1",
+            "projectName": "java_pietra-1_8c02e5bc"
+        },
+        {
+            "type": "java",
+            "name": "revisao_15_05",
+            "request": "launch",
+            "mainClass": "revisao_15_05",
+            "projectName": "java_pietra-1_8c02e5bc"
+        }
+    ]
+}

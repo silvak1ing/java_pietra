@@ -4,7 +4,34 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-        
+        {
+            "type": "java",
+            "name": "pessoa",
+            "request": "launch",
+            "mainClass": "pessoa",
+            "projectName": "java_pietra-1_8c02e5bc"
+        },
+        {
+            "type": "java",
+            "name": "heranca",
+            "request": "launch",
+            "mainClass": "heranca",
+            "projectName": "java_pietra-1_8c02e5bc"
+        },
+        {
+            "type": "java",
+            "name": "InteractiveInput",
+            "request": "launch",
+            "mainClass": "InteractiveInput",
+            "projectName": "java_pietra-1_8c02e5bc"
+        },
+        {
+            "type": "java",
+            "name": "interacao",
+            "request": "launch",
+            "mainClass": "interacao",
+            "projectName": "java_pietra-1_8c02e5bc"
+        },
         {
             "type": "java",
             "name": "Current File",

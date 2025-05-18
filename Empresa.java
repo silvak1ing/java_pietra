@@ -51,7 +51,7 @@ public class Empresa {
 
     private static void listarFuncionarios() {
         if (funcionarios.isEmpty()) {
-            System.out.println("Nenhum funcionário cadastrado.");
+            System.out.println("Nenhum funcionario cadastrado.");
             return;
         }
         for (Funcionario f : funcionarios) {

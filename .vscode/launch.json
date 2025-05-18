@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Empresa",
+            "request": "launch",
+            "mainClass": "Empresa",
+            "projectName": "java_pietra_e03e7405"
+        },
+        {
+            "type": "java",
             "name": "pessoa",
             "request": "launch",
             "mainClass": "pessoa",

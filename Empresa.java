@@ -23,17 +23,17 @@ public class Empresa {
                 case 4 -> aumentarSalario();
                 case 5 -> desativarFuncionario();
                 case 0 -> System.out.println("Encerrando o programa...");
-                default -> System.out.println("Opção inválida!");
+                default -> System.out.println("Opcao invalida!");
             }
         } while (opcao != 0);
     }
 
     private static void exibirMenu() {
         System.out.println("\n1 - Cadastrar funcionário");
-        System.out.println("2 - Listar funcionários");
+        System.out.println("2 - Listar funcionarios");
         System.out.println("3 - Alterar cargo");
         System.out.println("4 - Aumentar salário");
-        System.out.println("5 - Desativar funcionário");
+        System.out.println("5 - Desativar funcionaio");
         System.out.println("0 - Sair");
         System.out.print("Escolha uma opção: ");
     }
@@ -46,7 +46,7 @@ public class Empresa {
         System.out.print("Salário: ");
         double salario = scanner.nextDouble();
         funcionarios.add(new Funcionario(nome, cargo, salario));
-        System.out.println("Funcionário cadastrado com sucesso!");
+        System.out.println("Funcionario cadastrado com sucesso!");
     }
 
     private static void listarFuncionarios() {
@@ -75,7 +75,7 @@ public class Empresa {
             System.out.print("Percentual de aumento: ");
             double percentual = scanner.nextDouble();
             f.aumentarSalario(percentual);
-            System.out.println("Salário atualizado com sucesso!");
+            System.out.println("Salario atualizado com sucesso!");
         }
     }
 
@@ -83,19 +83,19 @@ public class Empresa {
         Funcionario f = buscarFuncionarioPorNome();
         if (f != null) {
             f.desativar();
-            System.out.println("Funcionário desativado com sucesso!");
+            System.out.println("Funcionario desativado com sucesso!");
         }
     }
 
     private static Funcionario buscarFuncionarioPorNome() {
-        System.out.print("Digite o nome do funcionário: ");
+        System.out.print("Digite o nome do funcionario: ");
         String nome = scanner.nextLine();
         for (Funcionario f : funcionarios) {
             if (f.getNome().equalsIgnoreCase(nome)) {
                 return f;
             }
         }
-        System.out.println("Funcionário não encontrado.");
+        System.out.println("Funcionario nao encontrado.");
         return null;
     }
 }

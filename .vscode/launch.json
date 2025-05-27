@@ -6,6 +6,7 @@
     "configurations": [
         {
             "type": "java",
+<<<<<<< HEAD
             "name": "exemplotry",
             "request": "launch",
             "mainClass": "exemplotry",
@@ -17,6 +18,12 @@
             "request": "launch",
             "mainClass": "Pessoa",
             "projectName": "java_pietra-1_8c02e5bc"
+=======
+            "name": "Empresa",
+            "request": "launch",
+            "mainClass": "Empresa",
+            "projectName": "java_pietra_e03e7405"
+>>>>>>> cbf9aeb204c0b88050f0d943bdc8c338b9928597
         },
         {
             "type": "java",

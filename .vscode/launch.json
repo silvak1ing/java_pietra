@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "exemplotry",
+            "request": "launch",
+            "mainClass": "exemplotry",
+            "projectName": "java_pietra-1_8c02e5bc"
+        },
+        {
+            "type": "java",
+            "name": "Pessoa",
+            "request": "launch",
+            "mainClass": "Pessoa",
+            "projectName": "java_pietra-1_8c02e5bc"
+        },
+        {
+            "type": "java",
             "name": "pessoa",
             "request": "launch",
             "mainClass": "pessoa",

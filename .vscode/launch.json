@@ -4,7 +4,34 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-        
+        {
+            "type": "java",
+            "name": "lista1",
+            "request": "launch",
+            "mainClass": "lista1",
+            "projectName": "java_pietra_896a50c5"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "java_pietra_896a50c5"
+        },
+        {
+            "type": "java",
+            "name": "Empresa",
+            "request": "launch",
+            "mainClass": "Empresa",
+            "projectName": "java_pietra_896a50c5"
+        },
+        {
+            "type": "java",
+            "name": "exercicio1",
+            "request": "launch",
+            "mainClass": "exercicio1",
+            "projectName": "java_pietra_896a50c5"
+        },
         {
             "type": "java",
             "name": "Current File",

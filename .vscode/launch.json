@@ -7,6 +7,33 @@
         {
             "type": "java",
 <<<<<<< HEAD
+            "name": "lista1",
+            "request": "launch",
+            "mainClass": "lista1",
+            "projectName": "java_pietra_896a50c5"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "java_pietra_896a50c5"
+        },
+        {
+            "type": "java",
+            "name": "Empresa",
+            "request": "launch",
+            "mainClass": "Empresa",
+            "projectName": "java_pietra_896a50c5"
+        },
+        {
+            "type": "java",
+            "name": "exercicio1",
+            "request": "launch",
+            "mainClass": "exercicio1",
+            "projectName": "java_pietra_896a50c5"
+=======
+<<<<<<< HEAD
             "name": "exemplotry",
             "request": "launch",
             "mainClass": "exemplotry",
@@ -52,6 +79,7 @@
             "request": "launch",
             "mainClass": "interacao",
             "projectName": "java_pietra-1_8c02e5bc"
+>>>>>>> 15f2bf59bb076c692945e3da0528d1308639c34f
         },
         {
             "type": "java",

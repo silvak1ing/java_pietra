@@ -16,7 +16,7 @@ public class lista1 {
         System.out.print("A pessoa é aluno ou funcionário? (a/f): ");
         String tipo = sc.nextLine();
 
-        Pessoa pessoa;
+        Pessoa pessoa = null;
 
         if (tipo.equalsIgnoreCase("f")) {
             System.out.print("Digite o salário: ");

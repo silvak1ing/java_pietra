@@ -25,7 +25,6 @@ class Professor extends Funcionario {
         this.disciplina = disciplina;
     }
 
-    @Override
     public void exibirDados() {
         System.out.println("Cargo: Professor");
         super.exibirDados();
@@ -42,7 +41,6 @@ class Tecnico extends Funcionario {
         this.funcao = funcao;
     }
 
-    @Override
     public void exibirDados() {
         System.out.println("Cargo: Tecnico");
         super.exibirDados();

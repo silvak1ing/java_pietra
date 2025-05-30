@@ -11,7 +11,7 @@ public class lista1 {
         System.out.print("Digite a idade: ");
         int idade = sc.nextInt();
 
-        sc.nextLine(); // consumir a quebra de linha
+        sc.nextLine(); 
 
         System.out.print("A pessoa é aluno ou funcionário? (a/f): ");
         String tipo = sc.nextLine();

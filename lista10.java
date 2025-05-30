@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-// Superclasse
+
 class Funcionario {
     protected String nome;
     protected String departamento;

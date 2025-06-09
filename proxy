@@ -1,0 +1,49 @@
+
+// Interface comum
+public interface Imagem {
+    void exibir();
+}
+
+// Objeto real
+public class ImagemReal implements Imagem {
+    private String nomeArquivo;
+
+    public ImagemReal(String nomeArquivo) {
+        this.nomeArquivo = nomeArquivo;
+        carregarImagemDoDisco();
+    }
+
+    private void carregarImagemDoDisco() {
+        System.out.println("Carregando " + nomeArquivo);
+    }
+
+    public void exibir() {
+        System.out.println("Exibindo " + nomeArquivo);
+    }
+}
+
+// Proxy
+public class ImagemProxy implements Imagem {
+    private ImagemReal imagemReal;
+    private String nomeArquivo;
+
+    public ImagemProxy(String nomeArquivo) {
+        this.nomeArquivo = nomeArquivo;
+    }
+
+    public void exibir() {
+        if (imagemReal == null) {
+            imagemReal = new ImagemReal(nomeArquivo); // carrega somente uma vez
+        }
+        imagemReal.exibir();
+    }
+}
+
+// Classe principal
+public class Main {
+    public static void main(String[] args) {
+        Imagem imagem = new ImagemProxy("foto.jpg");
+        imagem.exibir(); // carrega e exibe
+        imagem.exibir(); // sÃ³ exibe (nÃ£o carrega de novo)
+    }
+}
